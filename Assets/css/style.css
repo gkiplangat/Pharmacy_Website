@@ -1,0 +1,54 @@
+/*=========================
+Name: style.css
+Author:Gideon Kiplangat
+Version:1.0
+==========================*/
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    background: url(../images/logo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.container #login-form{
+    text-align: center;
+    padding-top: 55px;
+    
+}
+.container #login-form h3{
+    color: blueviolet;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.container #login-form fieldset {
+    border: 1px solid blueviolet;
+   
+}
+
+.container #login-form #form-login input{
+    margin: 10px;
+    width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 30px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 40px;
+}
+.container #login-form #form-login input[type="submit"] {
+	background-color: blueviolet;
+	color: white;
+    text-transform: uppercase;
+}
