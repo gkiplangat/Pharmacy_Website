@@ -21,7 +21,7 @@ require_once('include/session.php');
     <!--Morris Charts CSS-->
     <link rel="stylesheet" href="">
     <!--Custom Fonts-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="">
 </head>
 
