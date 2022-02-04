@@ -51,5 +51,35 @@ public function deleteRow($query,$params = []){
     return true;
 }//end deleteRow
 //get the last inserted ID
+public function lastID(){
+    $lastID = $this->datab->lastInsertId();
+    return $lastID;
+}//end lastID func
+// under construction kay dilli pa mo gana!!!
+public function transInsert($query,$params =[], $query2 , $params2 =[]){
+    try{
+        $this->transaction->beginTransaction();
+        $stmt = $this->datab->prepare($query);
+        $stmt->execute($params);
+        $stmt = $this->datab->prepare($query2);
+        $stmt->execute($params2);
+
+        $this->transaction->commit();
+    }catch(PDOException $e){
+         $this->transaction->rollBack();
+        throw new Exception($e->getMessage());
+    }
+    }//end transc func
+    public function begin(){
+         $this->transaction->beginTransaction();
+    }
+    public function commit(){
+         $this->transaction->commit();
+    }
+    public function test()
+    {
+        echo 'database class test';
+    }
+
 }
 ?>
