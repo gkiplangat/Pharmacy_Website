@@ -12,16 +12,17 @@ require_once('include/session.php');
 
     <title>Madawa Pharmacy & Monitoring System</title>
 
+   
     <!--Bootstrap Core CSS-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet"  type="text/css" href="assets/css/bootstrap-theme.min.css">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/sb-admin.css">
     <!--Morris Charts CSS-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/plugins/morris.css">
     <!--Custom Fonts-->
-    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css">
 </head>
 
 <body>
@@ -96,11 +97,12 @@ require_once('include/session.php');
     </div>
     <!--  /#wrapper-->
 
-    <script type="text/javascript" src=""></script>
-    <script type="text/javascript" src=""></script>
+   
+    <script type="text/javascript" src="assets/js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src=""></script>
-    <script type="text/javascript" src=""></script>
-    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="assets/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/regis.js"></script>
 </body>
 </html>
