@@ -10,7 +10,7 @@ class Sales extends Database implements iSales{
     }//end new_sales
     public function daily_sales($date)
     {
-        $sql = "SELECT 
+        $sql = "SELECT* 
                 FROM sales
                 WHERE DATE ('date_sold') =?";
                 return $this->getRows($sql,[$date]);
