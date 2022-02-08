@@ -1,4 +1,3 @@
-<?php
+<?php 
 interface iTransaction{
-
-}// end iTransaction
+}//end iTransaction

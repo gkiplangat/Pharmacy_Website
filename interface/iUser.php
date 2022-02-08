@@ -1,4 +1,4 @@
-<?php
+<?php 
 interface iUser{
-    public function user_login($username, $password);
+	public function user_login($username, $password);
 }//end iUser
