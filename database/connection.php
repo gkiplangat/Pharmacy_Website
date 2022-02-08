@@ -4,7 +4,7 @@ class Connection{
     protected $datab;
     protected $transaction;
     //un                       phpmyadmin       pass        phpmyadmin   ip        dbname              
-    public function __construct($username = "", $password = "", $host = "localhost", $dbname = "regis", $options = [])
+    public function __construct($username = "root", $password = "", $host = "localhost", $dbname = "regis", $options = [])
     {
         $this->isConn = TRUE;
         try {
